@@ -18,8 +18,8 @@ baseurl: /
 
 # Permalinks
 permalink: /:title
-# permalink: /author/:username
-# permalink: /tag/:tag
+permalink: /author/:username
+permalink: /tag/:tag
 
 # gems and other configs
 plugins: [jekyll-paginate]
@@ -37,16 +37,21 @@ plugins: [jekyll-paginate]
 # with jekyll-travis
 
 # Settings for deploy rake task
+
 # Username and repo of Github repo, e.g.
+
 # https://github.com/USERNAME/REPO.git
+# https://github.com/stopgok/stopgok.github.io.git
+
 # username defaults to ENV['GIT_NAME'] used by Travis
 # repo defaults to USERNAME.github.io
+#                  stopgok.github.io
 # Branch defaults to "source" for USERNAME.github.io
 # or "master" otherwise
 safe: false
 lsi: false
-#username: jekyller
-#repo: jasper
+username: stopgok
+repo: stopgok.github.io
 branch: master
 #relative_source: ../jasper/
 #destination: ../jasper-pages/
